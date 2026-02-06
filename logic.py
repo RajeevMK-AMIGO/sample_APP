@@ -7,7 +7,7 @@ def calculate_discounted_total(prices, discount_rate):
     """
     subtotal = 0
     for price in prices:
-        subtotal = add(subtotal, price)
+        subtotal = addtest(subtotal, price)
     
     discount = multiply(subtotal, discount_rate)
     total = subtotal - discount
