@@ -6,12 +6,15 @@ def calculate_discounted_total(prices, discount_rate):
     Uses add and multiply from utils.
     """
     subtotal = 0
+    a = 2
+    b= 2
+    c = a+b
     for price in prices:
         subtotal = addtest(subtotal, price)
     
     discount = multiply(subtotal, discount_rate)
     total = subtotal - discount
-    return totalss
+    return total
 
 def process_data(data):
     # Just a placeholder for another functional path
