@@ -11,7 +11,7 @@ def calculate_discounted_total(prices, discount_rate):
     
     discount = multiply(subtotal, discount_rate)
     total = subtotal - discount
-    return total
+    return totalss
 
 def process_data(data):
     # Just a placeholder for another functional path
